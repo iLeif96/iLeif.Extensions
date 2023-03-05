@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "oRgpqHGCPSmd9ofwkftWVsK5wNad3/Ca0QhKJ+CKXTi9e/C/UVuo92XYlTatMSozFKbcjHR9pUnS6Xdz6W29yQ==",
+  "success": true,
+  "projectFilePath": "C:\\Programming\\LibsToGitHub\\iLeif.Extensions\\iLeif.Extensions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Светослав\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Светослав\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\Светослав\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\Светослав\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\Светослав\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Светослав\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
