@@ -31,4 +31,29 @@ namespace iLeif.Extensions.Logging
             Debug.WriteLine("ERROR: " + message);
         }
     }
+
+	public class ConsoleLogger : ILogger
+	{
+		public ConsoleLogger() { }
+
+		public void Log(string message)
+		{
+			Console.WriteLine(message);
+		}
+
+		public void Info(string message)
+		{
+			Console.WriteLine("INFO: " + message);
+		}
+
+		public void Warn(string message)
+		{
+			Console.WriteLine("WARN: " + message);
+		}
+
+		public void Error(string message)
+		{
+			Console.WriteLine("ERROR: " + message);
+		}
+	}
 }

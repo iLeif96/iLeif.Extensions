@@ -23,16 +23,16 @@ namespace iLeif.Extensions.Numbers
 
 		public static double ToDegrees(this double rads) => 180 / Math.PI * rads;
 
-		public static bool IsLessTolerance(this double v) => v < Tolerance;
-		public static bool IsMoreTolerance(this double v) => v > Tolerance;
+		public static bool IsLessTolerance(this double v) => v <= Tolerance;
+		public static bool IsMoreTolerance(this double v) => v >= Tolerance;
 
-		public static bool IsTouching(this double v1, double v2) => Math.Abs(v2 - v1) - Tolerance <= 0;
+		public static bool IsTouching(this double v1, double v2) => Math.Abs(v2 - v1) <= Tolerance;
 
 		public static bool IsTouchingLeastOne(this double v1, params double[] values)
 		{
 			foreach (double value in values)
 			{
-				if (Math.Abs(value - v1) - Tolerance <= 0)
+				if (Math.Abs(value - v1) <= Tolerance)
 				{
 					return true;
 				}
@@ -45,7 +45,7 @@ namespace iLeif.Extensions.Numbers
 		{
 			foreach (double value in values)
 			{
-				if (Math.Abs(value - v1) - Tolerance > 0)
+				if (Math.Abs(value - v1) > Tolerance)
 				{
 					return false;
 				}
